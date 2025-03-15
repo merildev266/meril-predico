@@ -664,8 +664,8 @@ def run_forecast_job():
 def main():
     st.sidebar.title("Navigation")
     
-    if st.sidebar.button("Generate forecast"):
-        run_forecast_job()
+    #if st.sidebar.button("Generate forecast"):
+    #    run_forecast_job()
 
     page_choice = st.sidebar.radio("Go to page:", ["Submission Viewer", "Overview"])
     
